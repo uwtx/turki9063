@@ -1,0 +1,27 @@
+*
+{
+	border:1px red solid !important;
+}
+body {
+  transition: 1s;
+  font-family: "JF flat";
+}
+
+@font-face {
+  font-family: "JF flat";
+  font-weight: 300;
+  src: url(assets/JF-Flat-light.ttf);
+}
+
+@font-face {
+  font-family: "JF flat";
+  font-weight: 500;
+  src: url(assets/JF-Flat-regular.ttf);
+}
+
+@font-face {
+  font-family: "JF flat";
+  font-weight: 800;
+  src: url(assets/JF-Flat-medium.ttf);
+}
+

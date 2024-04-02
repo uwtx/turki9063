@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 764.03 950.9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6b4a74;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <polygon class="cls-1" points="55.03 0 0 0 0 272.41 49.99 272.41 55.03 272.41 236.64 272.41 236.64 947.46 291.67 947.46 291.67 272.41 291.67 217.38 55.03 217.38 55.03 0"/>
+      <polygon class="cls-1" points="117.83 0 117.83 40.36 117.83 55.03 117.83 110.98 117.83 133.91 117.83 166.01 353.55 166.01 353.55 786.04 408.58 786.04 408.58 166.01 408.58 110.98 353.55 110.98 172.86 110.98 172.86 55.03 764.03 55.03 764.03 0 117.83 0"/>
+      <polygon class="cls-1" points="708.99 217.38 529.65 217.38 474.62 217.38 474.62 947.46 529.65 947.46 529.65 272.41 708.99 272.41 764.03 272.41 764.03 217.38 764.03 109.82 708.99 109.82 708.99 217.38"/>
+      <rect class="cls-1" x="619.32" y="109.83" width="55.03" height="55.03"/>
+      <rect class="cls-1" x="534.02" y="109.83" width="55.03" height="55.03"/>
+      <rect class="cls-1" x="353.55" y="813.44" width="55.03" height="55.03"/>
+      <rect class="cls-1" x="353.55" y="895.87" width="55.03" height="55.03"/>
+    </g>
+  </g>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]>
+</script>
+</svg>
