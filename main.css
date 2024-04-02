@@ -1,6 +1,5 @@
 *
 {
-	border:1px red solid !important;
 }
 body {
   transition: 1s;
@@ -25,3 +24,13 @@ body {
   src: url(assets/JF-Flat-medium.ttf);
 }
 
+.w {
+          position: fixed;
+          bottom: 1em;
+          margin: 1em;
+          border: 1px white solid;
+          padding: 1em;
+          z-index: 999;
+	  background: #6B4a74;
+
+        }
